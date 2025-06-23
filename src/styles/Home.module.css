@@ -43,9 +43,22 @@
     padding: 24px 20px;
 }
 
-.footer a{
+.footer button{
     padding: 1rem 2rem;
     background: #202024;
     border-radius: 5px;
-    color: #996dff
+    color: #996dff;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 120px;
+    border-radius: 5px;
+    color: #333;
 }
